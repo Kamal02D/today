@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8A2FEED92DA6B67000B52308 /* Exceptions for "ToDoeyy" folder in "ToDoeyy" target */ = {
+		8A2FEED92DA6B67000B52308 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,24 +40,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8A2FEEB32DA6B66F00B52308 /* ToDoeyy */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				8A2FEED92DA6B67000B52308 /* Exceptions for "ToDoeyy" folder in "ToDoeyy" target */,
-			);
-			path = ToDoeyy;
-			sourceTree = "<group>";
-		};
-		8A2FEECA2DA6B67000B52308 /* ToDoeyyTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDoeyyTests;
-			sourceTree = "<group>";
-		};
-		8A2FEED42DA6B67000B52308 /* ToDoeyyUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDoeyyUITests;
-			sourceTree = "<group>";
-		};
+		8A2FEEB32DA6B66F00B52308 /* ToDoeyy */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (8A2FEED92DA6B67000B52308 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ToDoeyy; sourceTree = "<group>"; };
+		8A2FEECA2DA6B67000B52308 /* ToDoeyyTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ToDoeyyTests; sourceTree = "<group>"; };
+		8A2FEED42DA6B67000B52308 /* ToDoeyyUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ToDoeyyUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +185,7 @@
 				};
 			};
 			buildConfigurationList = 8A2FEEAC2DA6B66F00B52308 /* Build configuration list for PBXProject "ToDoeyy" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,7 +194,6 @@
 			);
 			mainGroup = 8A2FEEA82DA6B66F00B52308;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 8A2FEEB22DA6B66F00B52308 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
